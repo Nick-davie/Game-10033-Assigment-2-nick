@@ -27,7 +27,11 @@ namespace MohawkGame2D
             // Clear previous image with off-white color
             Window.ClearBackground(240);
 
-        Draw.Line
+
+            Draw.Line(280, 0, 280, 400);
+            Draw.Line(140, 0, 140, 400);
+            Draw.Line(400, 280, 0, 280);
+            Draw.Line(400, 140, 0, 140);
 
             // Draw a circle at mouse position
             // Circle is green with black outline
