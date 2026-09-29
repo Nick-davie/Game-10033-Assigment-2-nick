@@ -28,10 +28,51 @@ namespace MohawkGame2D
             Window.ClearBackground(240);
 
 
-            Draw.Line(280, 0, 280, 400);
-            Draw.Line(140, 0, 140, 400);
-            Draw.Line(400, 280, 0, 280);
-            Draw.Line(400, 140, 0, 140);
+            Draw.Line(260, 0, 260, 400);
+            Draw.Line(130, 0, 130, 400);
+            Draw.Line(400, 260, 0, 260);
+            Draw.Line(400, 130, 0, 130);
+
+            // square 1 filled
+            Draw.SetFillColor(255, 100, 100);
+            Draw.Quad(0, 0, 130, 0, 130, 130, 0, 130);
+
+            // square 2 filled
+            Draw.SetFillColor(255, 150, 100);
+            Draw.Quad(260, 0, 260, 130, 130, 130, 130, 0);
+
+            // square 3 filled
+            Draw.SetFillColor(255, 255, 100);
+            Draw.Quad(260, 0, 400, 0, 400, 130, 260, 130);
+
+            // square 4 filled
+            Draw.SetFillColor(255, 200, 255);
+            Draw.Quad(0, 130, 130, 130, 130, 260, 0, 260);
+
+            // square 5 filled
+            Draw.SetFillColor(255, 255, 255);
+            Draw.Quad(260, 130, 260, 260, 130, 260, 130, 130);
+
+            // square 6 filled
+            Draw.SetFillColor(100, 255, 100);
+            Draw.Quad(400, 130, 400, 260, 260, 260, 260, 130);
+
+            // square 7 filled
+            Draw.SetFillColor(255, 100, 255);
+            Draw.Quad(0, 260, 130, 260, 130, 400, 0, 400);
+
+            // square 8 filled
+            Draw.SetFillColor(100, 100, 255);
+            Draw.Quad(130, 260, 260, 260, 260, 400, 130, 400);
+
+
+            // square 9 filled
+            Draw.SetFillColor(200, 200, 255);
+            Draw.Quad(260, 260, 260, 400, 400, 400, 400, 260);
+
+
+
+
 
             // Draw a circle at mouse position
             // Circle is green with black outline
