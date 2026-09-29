@@ -130,13 +130,26 @@ namespace MohawkGame2D
             else if (Input.IsKeyboardKeyDown(KeyboardKey.Zero) == true)
             {
                 //chnage to be upside down
-                Draw.SetFillColor(255,255,255);
+                Draw.SetFillColor(255, 255, 255);
                 Draw.SetLineSize(0);
                 Draw.Capsule(170, 180, 170, 180, 22);
                 Draw.Capsule(210, 180, 210, 180, 22);
                 Draw.Triangle(190, 240, 150, 190, 230, 190);
                 Draw.SetLineSize(1);
+
+
             }
+            else if (Input.IsKeyboardKeyDown(KeyboardKey.Five) == true)
+            {
+                //chnage to be upside down
+                Draw.SetFillColor(255, 255, 255);
+                Draw.SetLineSize(0);
+                Draw.Capsule(170, 220, 170, 220, 22);
+                Draw.Capsule(210, 220, 210, 220, 22);
+                Draw.Triangle(190, 160, 150, 210, 230, 210);
+                Draw.SetLineSize(1);
+            }
+
             else if (Input.IsKeyboardKeyDown(KeyboardKey.Six) == true)
             {
                 Draw.SetFillColor(0, 255, 0);
